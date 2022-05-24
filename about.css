@@ -1,0 +1,69 @@
+
+
+.about-student-class-details{
+    padding: 50px;
+}
+
+.round{
+    width: 300px;
+    margin: 10px 5px;
+    border: 2px solid red;
+    border-radius: 300px;
+    padding: 50px;
+    color: red;
+    transition: .5s;
+}
+.round:hover{
+    background-color: greenyellow;
+    color: whitesmoke;
+}
+.row{
+    display: flexbox;
+}
+
+.video-conatiner{
+    background-color: rgb(240, 240, 162);
+    color: tomato;
+}
+
+.video{
+    padding: 20px;
+    width: 80%;
+    
+    margin: 10px auto;
+    /* border: 1px solid red; */
+    
+}
+.video-text{
+    margin: 30px;
+    color: yellowgreen;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position:absolute ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about-home-btn{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 100px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+.about-footer{
+    margin-bottom:0 ;
+}
