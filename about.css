@@ -6,7 +6,7 @@
 
 .round{
     width: 300px;
-    margin: 10px 5px;
+    margin: 10px auto;
     border: 2px solid red;
     border-radius: 300px;
     padding: 50px;
