@@ -365,3 +365,35 @@ footer p{
         color: red;
     }
 }
+
+/* p-desk */
+
+.p-desk{
+    width: 95%;
+    
+}
+.p-desk p{
+    text-align: center;
+}
+
+.p-img{
+    width: 100%;
+}
+.p-img img{
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .p-img{
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .p-desk{
+        width: 80%;
+        margin: 30px auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+        line-height: 26px;
+    }
+}
